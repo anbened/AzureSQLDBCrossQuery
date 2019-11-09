@@ -5,7 +5,7 @@
 STEP 1 
 Create a SQL Login in the logical server's master database 
 */
---> ESEGUIRE IN MASTER DATABASE
+--> EXECUTE IN MASTER DATABASE
 CREATE LOGIN RemoteLogger WITH PASSWORD='123!#StrongPassword';
 
 /*
