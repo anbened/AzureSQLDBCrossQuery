@@ -1,6 +1,6 @@
 # AzureSQLDBCrossQuery
 
-An Azure SQL Database as no way to access immediately to another database, even if created on the same virtual server. 
+An Azure SQL Database can't access immediately to another database, even if created on the same virtual server. 
 While the databases on a server share a MASTER database, with associated logins, there was no way to access one db from another.
 
 In the scripts you can see how to set up an external table in one db that can be used to query data in another db.
